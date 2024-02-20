@@ -1,0 +1,97 @@
+.address_div {
+    background-color: #000000;
+    padding-left: 40px;
+    margin: 26px;
+    border-radius: 20px;
+}
+
+.addresssecimg {
+    width: 352.44px;
+    height: 340.08px;
+    margin-top: 150px;
+    margin-left: 0px;
+}
+
+.abouttext1 {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: white;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.abouttext2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.addressform {
+    width: 690px ;
+    height: 54px; 
+    padding-top: 30px;
+    gap: 8px;
+}
+
+.lablecolor {
+    color: white;
+}
+
+.radioadd {
+    display: flex;
+    background: white;
+    padding: 6px 20px;
+    gap: 30px;
+    border-radius: 4px;
+}
+
+.radiogap {
+    margin-right: 10px !important;
+}
+
+
+.pbottom {
+    padding-bottom: 40px;
+}
+.addbtnposition {
+    text-align: right;
+}
+.addressbtn1 {
+    background-color: #025E73;
+    color: white;
+    border-radius: 16px;
+    width: 98%;
+    text-align: left;
+    padding-bottom: 12px;
+}
+span.addressarow {
+    margin-left: 190px;
+}
+
+.addressimgbtn{
+
+    color: white;
+}
+
+.addressimglable {
+    color: #ababab;
+    background-color: white;
+    text-align: center;
+
+    width: 100%;
+
+    border-radius: 16px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+}
+.addressbtninput {
+    margin-left: 20px;
+}
+.addresspadding {
+    padding-top: 30px;
+}

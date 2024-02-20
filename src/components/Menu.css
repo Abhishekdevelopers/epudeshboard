@@ -1,0 +1,30 @@
+.mynavbar ul li {
+    display: inline-block;
+}
+.header-inner {
+    display: flex;
+}
+.mynavbar li a {
+    padding: 10px 20px 10px 10px;
+    color: #434343;
+    font-size: 17px;
+}
+.Header {
+    padding: 18px 0px;
+    box-shadow: 1px 1px 0px #025e7336;
+}
+.singn_btn a {
+    background: #025E73;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 45px;
+    padding: 12px 30px;
+    float: right;
+}
+.mynavbar ul {
+    margin-bottom: 0px !important;
+    margin-top: 12px;
+}
+.menu-container svg {
+    margin-bottom: -2px;
+}

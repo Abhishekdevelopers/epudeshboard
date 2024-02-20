@@ -1,0 +1,117 @@
+
+.Headlnemain{
+    background-color: #000000;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    margin: 26px;
+    border-radius: 20px;
+}
+.Headlinemainsubdiv{
+    width: 92%;
+height: 100%;
+margin-top: 30px;
+margin-left: 10px;
+}
+.headlinesubdivtext{
+    font-family: Arial;
+font-size: 28px;
+font-weight: 900;
+margin-left: -15px;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF ;
+}
+
+.circleicone{
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.pheadline{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: #EEEEEE;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.headinebtnmain{
+    padding-top: 20px;
+    border-top: 1px solid #636363;
+    margin-top: 30px;
+}
+.headlinebtn1 {
+    background-color: #025E73;
+    color: white;
+    border-radius: 16px;
+    width: 98%;
+    margin-left: 12px;
+    text-align: left;
+    padding-bottom: 12px;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0.1em;
+text-align: center;
+
+}
+.otptextheadlineicon {
+    text-align: end;
+}
+.headlinearow {
+    padding-left: 324px;
+    }
+
+    @media screen and (max-width:768px) {
+        .felxdiv {
+            display: flex;
+            flex-direction: row;
+        }
+        .textheadlineicon {
+            margin-left: 70%;
+        }
+    }
+    @media screen and (max-width:425px) {
+        .textheadlineicon {
+            margin-left: 40%;
+        }
+        .otptextheadlineicon {
+            padding-left: 0px;
+        }
+        .Headlnemain {
+            padding-left: 20px;
+        }
+        .headlinearow {
+            padding-left: 170px;
+        }
+        .headlinebtn1 {
+            width: 94%;
+        }
+    }
+
+@media screen and (max-width: 375px){
+    .textheadlineicon {
+        margin-left: 30%;
+    }
+    .headlinearow {
+        padding-left: 110px;
+    }
+}
+
+@media screen and (max-width: 325px){
+
+    .textheadlineicon {
+        margin-left: 15%;
+    }
+    .headlinebtn1 {
+        width: 90%;
+        margin-left: 0px
+    }
+    .headlinearow {
+        padding-left: 60px;
+    }
+}

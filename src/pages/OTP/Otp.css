@@ -1,0 +1,144 @@
+.Otpmain{
+    background-color: #000000;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    margin: 26px;
+    border-radius: 20px;
+}
+.otptext {
+    margin-left: -15px;
+}
+.otptexticon {
+    text-align: end;
+    /* padding-left: 39px; */
+    margin-left: 15px;
+}
+.subdivtext{
+    font-family: Arial;
+font-size: 28px;
+font-weight: 900;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF ;
+}
+.subdivtext1{
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+padding-top: 10px;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF ;
+}
+.Otpmainsubdiv{
+    width: 92%;
+height: 100%;
+margin-top: 30px;
+margin-left: 10px;
+}
+.emaillable{
+    font-family: Arial;
+font-size: 12px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 0.005em;
+text-align: left;
+color: #FFFFFF;
+}
+.emaillable1{
+    font-family: Arial;
+font-size: 12px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 0.005em;
+text-align: left;
+color: #FFFFFF;
+}
+.emailbox1{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+ }
+.emailbox2{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+ }
+ .toppadding {
+    padding-top: 20px;
+}
+.otpbtn1 {
+    background-color: #025E73;
+    color: white;
+    border-radius: 16px;
+    margin-left: 20px;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 12px;
+    /* font-family: Inter; */
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0.1em;
+text-align: center;
+
+}
+.otparow {
+padding-left: 324px;
+}
+.otpbtnmain{
+    padding-top: 20px;
+    border-top: 1px solid #636363;
+    margin-top: 30px;
+}
+@media screen and (max-width:1024px) {
+    .otparow {
+        padding-left: 245px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 100%;
+    }
+    .otpbtn1 {
+        margin-left: 0px;
+    }
+    .felxdiv {
+        display: flex;
+        flex-direction: row;
+    }
+    .otptexticon {
+        margin-left: 36%;
+    }
+}
+@media screen and (max-width:425px) {
+    .Otpmain {
+        padding-left: 10px;
+    }
+    .felxdiv {
+        display: flex;
+        flex-direction: row;
+    }
+    .subdivtext {
+        font-size: 25px;
+    }
+    .otptexticon {
+        margin-left: 0%;
+    }
+    .otparow {
+        padding-left: 43px;
+    }
+    .otpbtn1 {
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 320px){
+    .subdivtext {
+        font-size: 21px;
+    }
+}
+

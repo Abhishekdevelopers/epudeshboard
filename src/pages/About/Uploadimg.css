@@ -1,0 +1,20 @@
+/* .maindiv{
+        height: 100px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        background-image: url(/src/assets/Images/Profile.png);
+        background-repeat: no-repeat;
+    } */
+    label{
+        display: block;
+        width: 200px;
+        background: #e3362c;
+        color: white;
+        padding: 12px;
+        margin: 10px auto;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    input{
+        display: none;
+    }

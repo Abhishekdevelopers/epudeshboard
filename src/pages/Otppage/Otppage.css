@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  outline: none;
+}
+
+/* Container styles */
+.maincontainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(108deg, #e0e0f9 0%, #dadaff 100%); */
+}
+
+/* Card styles */
+.card {
+  background-color: #ffffff;
+  padding: 24px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styles */
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #28152f;
+}
+
+/*btn*/
+.otpbtnpage {
+  width: 485px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: unset;
+  gap: 6px;
+  border-radius: 25px;
+  color: #ffffff;
+  background-color: #025E73;
+}
+/* .arrowdown{
+  padding-top: 8px;
+} */
+/* Input field styles */
+.inputfield {
+  width: 14%;
+  border-radius: 6px;
+  border: 1.5px solid #dee1ea;
+  padding: 12px 20px;
+  color: #999999;
+  text-align: center;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 10px;
+}
+/* Input field focus styles */
+.inputfield:focus {
+  border-color: #506cff;
+}
+.ptext2 {
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  padding-top: 20px;
+  padding-bottom: 24px;
+  text-align: left;
+  color: #000000;
+}
+.maintexth{
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+
+.mainh {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #CCCCCC;
+}
+.btnborder {
+  padding-top: 20px;
+  border-top: 2px solid #CCCCCC;
+}
+.arrowdown {
+  padding-top: 3px;
+}
+.ptext1{
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom: 20px;
+color: #636363;
+}
+.ptextsspan1{
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: #025E73;
+
+}
+/* Countdown text styles */
+.countdown-text {
+  display: flex;
+  align-items: center;
+  margin: 24px 0px;
+}
+.timecolor {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #025E73;
+}
+
+/* Countdown text paragraph styles */
+.countdown-text > p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #636363;
+}
+
+/* Countdown text button styles */
+.countdown-text > button {
+  background-color: #fff;
+  border: none;
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Submit button styles */
+.submit-btn {
+  width: 100%;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px;
+  background: linear-gradient(91deg, #9076fc 0%, #6950ff 100%);
+  transition: all ease 0.6s;
+}
+
+/* Submit button hover styles */
+.submit-btn:hover {
+  color: #6950ff;
+  background: #e6e0ffbf;
+}
+@media screen and (max-width: 768px) {
+
+  
+  .mainh {
+    display: flex;
+  }
+  .otpcrossicone{
+    margin-left: 264px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .card{
+    width: 300px;
+  }
+  .otpbtnpage {
+    width: 280px;
+}
+.otpcrossicone{
+  margin-left: 64px;
+}
+.inputfield {
+  width: 12%;
+  padding: 6px 2px;
+}
+.ptext2 {
+  font-size: 26px;
+}
+.mainh {
+  display: flex;
+}
+}

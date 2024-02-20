@@ -1,0 +1,201 @@
+.mainsecscrol {
+    height: 100vh;
+    overflow: scroll;
+    scrollbar-color: transparent;
+    scrollbar-width: 0px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.mainsec {
+    background: #fff;
+    padding: 10px;
+}
+.sharesec input[type=text] {
+    width: 100%;
+    background: #ededed;
+}
+/* .postheadermain {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    box-shadow: 1px 1px 3px #bcbcbc;
+    background: #fff;
+    border-radius: 6px;
+}
+.postheader {
+    list-style: none;
+    padding-left: 0;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+} */
+.mainpostul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.litextcolor {
+    color: #eb5757;
+}
+.uldiv {
+    width: 100%;
+}
+.postlike {
+    display: flex;
+    align-items: center;
+}
+.ulpost {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.posttxh {
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lihtext {
+    color: #00c14d;
+}
+.posttxbtn {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.postbtn {
+    width: 100%;
+    color: #025e73;
+    padding: 10px 70px;
+    font-weight: 600;
+    background: #fff;
+    border: 1px solid #025E73;
+    border-radius: 63px;
+}
+.postbtn1 {
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 70px;
+    background: #025e73;
+    border: 1px solid #025E73;
+    border-radius: 63px;
+}
+.mainshareicon {
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.shareicon {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.shareiconesize {
+    font-size: 21px;
+    color: #717171;
+}
+.shareiconesize1 {
+    font-size: 21px;
+}
+.shareli {
+    display: flex;
+    gap: 3px;
+}
+button.dotbutn {
+    background: transparent;
+    padding: unset;
+    border: none;
+}
+.commentsec {
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.comtinput {
+    border: none;
+}
+.headerpostlitext {
+    font-size: 15px;
+    font-weight: 600;
+}
+.sharesec {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.commenticontext {
+    font-size: 23px;
+    margin-right: 5px;
+    color: #767676;
+}
+.commtmaininput {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+    padding: 9px 5px;
+    border-radius: 4px;
+    background: #eee;
+}
+button.commtsharebtn {
+    border: none;
+    background: transparent;
+}
+.posttexli {
+    font-size: 15px;
+    font-weight: 600;
+}
+.postimg1 {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+@media (max-width:1024px) {
+    .postbtn {
+        padding: 10px 55px;
+    }
+    .postbtn1 {
+        padding: 10px 55px;
+    }
+    .ulpost {
+        font-size: 12px;
+    }
+    .headerpostlitext {
+        font-size: 13px;
+    }
+    .posttexli {
+        font-size: 13px;
+    }
+    .lihtext {
+        font-size: 13px;
+    }
+}
+@media (max-width:960px) {
+    .ulpost {
+        font-size: 12px;
+    }
+    .headerpostlitext {
+        font-size: 13px;
+    }
+    .posttexli {
+        font-size: 13px;
+    }
+    .lihtext {
+        font-size: 13px;
+    }
+}

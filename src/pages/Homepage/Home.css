@@ -1,0 +1,129 @@
+.first_sec {
+    padding: 50px 0px 50px 0px;
+}
+.first_sec h1 {
+  line-height: 70px;
+  font-size: 85px;
+  text-transform: uppercase;
+  color:#025E73;
+  padding-bottom: 20px
+}
+.first_sec h1 span {
+  color: #0030D9;
+}
+.first_sec h2 {
+  font-size: 85px;
+  text-transform: uppercase;
+  color: #025e73;
+}
+.first_sec h2 span {
+  color: #0030D9;
+}
+.first_sec button {
+  color: #fff;
+  background: #025E73;
+  /* margin-top: 24px; */
+  /* display: flex; */
+  padding: 12px;
+  font-size: 18px;
+  width: 100%;
+}
+/* .bordr_btm {
+    border-bottom: 1px solid #a6a6a6;
+    padding-top: 30px;
+} */
+.mynavbar svg {
+    font-size: 17px;
+    align-items: center;
+    margin-left: 10px;
+} 
+/* .form_brd {
+    padding-right: 22px;
+    padding-left: 0px;
+} */
+.log_frmn {
+  padding: 28px 16px 28px 16px;
+  /* border-left: 1px solid #a6a6a6; */
+  background: black;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+button[type="submit"], input[type="submit"] {
+  background: #025e73;
+  color: white;
+  /* text-transform: uppercase; */
+  border: none;
+  /* margin-top: 17px; */
+  padding: 9px;
+  font-size: 15px;
+  font-weight: 100;
+  /* letter-spacing: 10px; */
+  width: 100%;
+  border-radius: 90px;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  background: #0e90ad;
+}
+
+button[type="submit"]:active,
+input[type="button"]:active,
+input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+input:disabled {
+  opacity: 0.4;
+}
+
+input[type="button"]:hover {
+  transition: 0.3s all;
+}
+.form_brd p {
+  font-size: 42px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+/* .hom_lgn {
+  background: #000000;
+  padding: 24px;
+  border-radius: 20px;
+  margin-top: 34px;
+} */
+.hom_lgn h3 {
+  color: #fff;
+}
+.hom_lgn p {
+  color: #fff;
+}
+.hom_lgn h3 {
+  font-size: 26px;
+  font-weight: 500;
+}
+/* .navi_img img {
+  width: 100%;
+  margin-top: -300px;
+} */
+.navi_imgg img {
+  margin-top: -388px;
+  z-index: 0;
+  position: relative;
+}
+.form-group {
+  padding-bottom: 20px;
+}
+/* .col-md-8.form_brd {
+  z-index: 0;
+  padding: 0;
+} */
+.form_brd img {
+  z-index: 1;
+  position: relative;
+}
+.hom_lgn {
+  z-index: 2;
+}

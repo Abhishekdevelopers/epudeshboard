@@ -1,0 +1,84 @@
+.sidmain1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.side2chatsec {
+    background: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px #c4c3c3;
+}
+.sidmain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sid1iconsize {
+    font-size: 23px;
+    margin-top: 5px;
+}
+.textsee{
+    color: #0b6075;
+    font-weight: 600;
+}
+
+.sid1icontext {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
+    color: #686868;
+}
+.sid1icontext1 {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
+    
+}
+.s1toprighticon {
+    font-size: 18px;
+    color: #00c14d;
+}
+.s1downrighticon{
+    font-size: 18px;
+    color: #c70202;
+}
+.subtextmsg {
+    color: #707070;
+}
+@media (max-width:1024px) {
+    .sid1icontext1 {
+        font-size: 13px;
+    }
+    .sidmain {
+        font-size: 11px;
+        padding-top: 2px;
+    }
+    .sid1icontext {
+        font-size: 13px;
+    }
+    .textsee {  
+        font-size: 13px;
+    }
+}
+@media (max-width:768px) {
+    .sid1icontext1 {
+        font-size: 13px;
+    }
+    .sidmain {
+        font-size: 13px;
+        padding-top: 2px;
+    }
+    .sid1icontext {
+        font-size: 15px;
+    }
+    .textsee {  
+        font-size: 14px;
+    }
+}

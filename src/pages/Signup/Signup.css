@@ -1,0 +1,239 @@
+.maindiv {
+    padding: 40px;
+    background-color: #E5f4f7;
+}
+.formhdiv {
+    padding-bottom: 30px;
+}
+.formh {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+p.formp {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #636363;
+}
+::placeholder{
+    font-size: 13px;
+}
+.formpspam {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #025E73;
+}
+.btnleft {
+    padding-left: 49px;
+}
+.form-error{
+    color: red;
+}
+.ficone {
+    padding-right: 6px;
+}
+.iconebtn {
+    position: relative;
+    top: 10px;
+}
+.btnsignup {
+    background-color: #025E73;
+    color: #FFFFFF;
+    padding: 0px 20px 10px 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 160px;
+    /* height: 44px; */
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+}
+.btnsignup1 {
+    background-color: #025E73;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 23px;
+    width: 100%;
+    height: 44px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+}
+.formfield {
+    padding: 0px 10px 0px 0px;
+}
+.formfield1 {
+    padding: 0px 0px 0px 10px;
+}
+.formdiv {
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+.btndiv {
+    padding-bottom: 100px;
+}
+.checkb {
+    padding-left: 8px;
+    font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #999999;
+}
+
+.maincheckbox{
+    text-align: center;
+}
+.ptextsigup {
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.ptextsigup1 {
+    font-family: Arial;
+    font-size: 54px;
+    line-height: 0px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #025E73;
+}
+.texth3 {
+    font-family: Inter;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 0px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.ptext2 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    padding-top: 20px;
+    color: #000000;
+}
+
+
+.englishkey {
+    background: white;
+    padding: 10px 0px 1px 0px;
+    text-align: center;
+    width: 100px;
+    border-radius: 25px;
+}
+ul.englishkeylist {
+    list-style: none;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .btnleft {
+        padding-left: 0px;
+    }
+    .ptextsigup {
+        font-size: 50px;
+    }
+    .ptextsigup1 {
+        font-size: 50px;
+    }
+    .texth3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btnleft {
+        padding-left: 15px ;
+    }
+    .formdiv {
+        margin-top: 30px;
+    }    
+    .formfield1 {
+        padding: 0px 0px 0px 0px;
+    }
+    .formfield {
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    
+    .ptextsigup {
+        font-size: 30px;
+    }
+    .ptextsigup1 {
+        font-size: 30px;
+    }
+    .texth3 {
+        font-size: 20px;
+    }
+    .formfield {
+        padding: 0px 0px 0px 0px;
+    }
+    .form-check {
+        display: flex !important;
+    }
+}
+@media screen and (max-width: 375px) {
+    
+    .ptextsigup {
+        font-size: 26px;
+    }
+    .ptextsigup1 {
+        font-size: 26px;
+    }
+    .texth3 {
+        font-size: 17px;
+    }
+    .ptext2 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 320px) {
+    
+    .ptextsigup {
+        font-size: 21px;
+    }
+    .ptextsigup1 {
+        font-size: 21px;
+    }
+    .texth3 {
+        font-size: 14px;
+    }
+    .formh {
+        font-size: 24px;
+    }
+    .ptext2 {
+        font-size: 15px;
+    }
+}

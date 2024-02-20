@@ -1,0 +1,114 @@
+.offermain{
+    background-color: #000000;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    margin: 26px;
+    border-radius: 20px;
+}
+.offermainsubdiv{
+    width: 92%;
+height: 100%;
+margin-top: 30px;
+margin-left: 10px;
+}
+.offertext {
+    margin-left: -15px;
+}
+.offertexticon {
+    text-align: end;
+    margin-left: 15px;
+}
+.offerdivtext1{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF ;
+    }
+    .mainjobsec{
+        width: 1120px;
+        height: 160px;
+        border-radius: 8px;
+        margin-top: 20px;
+        Padding:20px;
+        background-color: #FFFFFF;
+    }
+    .ullioffer{
+        color: #636363;
+        margin-left: -22px;
+    
+    }
+    .hoffer{
+        font-family: Arial;
+font-size: 24px;
+font-weight: 900;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+    .giticone {
+        padding-top: 20px;
+    }
+
+    .offerbtnmain{
+        width: 1120px;
+        padding-top: 20px;
+        border-top: 1px solid #636363;
+        margin-top: 30px;
+    }
+    .offerbtnmain {
+        width: 96%;
+        padding-top: 20px;
+        border-top: 1px solid #636363;
+        margin-top: 30px;
+    }
+
+    @media screen and (max-width:1024px) {
+        .mainjobsec {
+            width: 100%; 
+            height: 100%; 
+        }
+    }
+    @media screen and (max-width:768px) {
+        .mainjobsec {
+            width: 100%; 
+            height: 100%; 
+        }
+        .felxdiv {
+            display: flex;
+            flex-direction: row;
+        }
+        .offertexticon {
+            margin-left: 80%;
+        }
+    }
+    @media screen and (max-width:425px) {
+        .felxdiv {
+            display: flex;
+            flex-direction: row;
+        }
+        .offerdivtext1 {
+            width: 94%;
+        }
+        .offertexticon {
+            margin-left: 180px;
+        }
+        .offermain {
+            padding-left: 20px;
+        }
+    }
+    @media screen and (max-width:375px) {
+        .offertexticon {
+            margin-left: 130px;
+        }
+    }
+    @media screen and (max-width:320px) {
+
+         .offertexticon {
+            margin-left: 90px;
+        }
+    }

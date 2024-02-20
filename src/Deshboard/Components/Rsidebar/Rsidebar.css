@@ -1,0 +1,263 @@
+/* address */
+.headerlist {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.maindivrside {
+    display: flex;
+    align-items: center;
+    padding: 20px 4px 8px 6px;
+    background: #fff;
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 3px #c0c0c0cc;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.rullist {
+    list-style: none;
+    padding-left: 10px;
+}
+.risideicon {
+    font-size: 26px;
+    color: #727272;
+}
+.rsidebarlitext {
+    font-size: 15px;
+    font-weight: 600;
+}
+.rsidli1 {
+    font-size: 15px;
+    font-weight: 600;
+}
+.rsidli2 {
+    font-size: 13px;
+    color: #707087;
+}
+.rsidli3 {
+    padding: 0;
+    background: transparent;
+    border: none;
+    text-align: right;
+    color: #00c14d;
+    font-weight: 600;
+    font-size: 11px;
+    margin-top: 25px;
+}
+
+
+/* post */
+
+.address_Sec input[type=text] {
+    width: 100%;
+    /* border: unset;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px; */
+    background: #ededed;
+}
+.address_Sec {
+    /* background-color: gray; */
+    display: flex;
+    width: 100%;
+    background: #eee;
+    border-radius: 4px;
+    padding: 2px 2px;
+    margin-top: 20px;
+}
+.inputrside {
+    border: none;
+    color: #767676;
+    padding: 0px;
+    width: 100%;
+}
+.butticonrside {
+    border: none;
+}
+.addressicon {
+    font-size: 30px;
+    color: #767676;
+    margin-right: 5px;
+}
+.main_addressrs {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.rsmenu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0px;
+    align-items: center;
+    padding-top: 20px;
+}
+li.remenu_li {
+    background: #3d3d3d;
+    color: #fff;
+    border-radius: 42px;
+    padding: 8px 20px;
+}
+.rsidebaricon {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 32px;
+    font-size: 26px;
+    list-style: none;
+    color: #7e7e7e;
+}
+.creatpostrs {
+    background: #fff;
+    padding: 0px 10px 1px;
+    box-shadow: 1px 1px 3px #0000004d;
+    border-radius: 6px;
+}
+
+/*feature sec*/
+.featuresec {
+    background: #fff;
+    padding: 20px 10px 10px;
+    box-shadow: 1px 1px 3px #0000004d;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.featuresec1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.featurtime {
+    font-size: 13px;
+}
+.featureul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 0px;
+    /* justify-content: space-around; */
+}
+.featuliicone {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+.featurlitext {
+    color: #707070;
+    font-size: 13px;
+}
+.featuresub1 {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 5px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.featuresub2 {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+.featuresub3 {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 5px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.featuresubmain3 {
+    display: flex;
+    justify-content: space-between;
+}
+.featureliicone {
+    color: #22e16d;
+    font-size: 24px;
+}
+.postimg {
+    padding-top: 20px;
+}
+
+.frameimg {
+    width: 100%;
+    margin-top: 20px;
+}
+.featurtextsee {
+    color: #0b6075;
+    font-weight: 600;
+}
+
+@media (max-width:1024px) {
+    .rsidli3 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 10px;
+        margin-top: 14px;
+    }
+    .rsidli2 {
+        font-size: 12px;
+    }
+    .rsidli1 {
+        font-size: 13px;
+    }
+
+    .main_addressrs {
+        gap: 4px;
+        padding: 0px 4px;
+    }
+    .rsmenu {
+        font-size: 13px;
+        gap: 4px;
+    }
+    .rsidebarlitext {
+        font-size: 13px;
+        padding-top: 5px;
+    }
+    .featurtextsee {
+        font-size: 13px;
+    }
+    .featurlitext {
+        font-size: 10px;
+    }
+    .featurtime {
+        font-size: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .rsidli3 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 14px;
+    }
+    .rsidli2 {
+        font-size: 14px;
+    }
+    .rsidli1 {
+        font-size: 15px;
+    }
+
+    .main_addressrs {
+        gap: 4px;
+        padding: 0px 4px;
+    }
+    .rsmenu {
+        font-size: 15px;
+        gap: 20px;
+    }
+    .rsidebarlitext {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .featurtextsee {
+        font-size: 14px;
+    }
+    .featurlitext {
+        font-size: 13px;
+    }
+    .featurtime {
+        font-size: 12px;
+    }
+}
